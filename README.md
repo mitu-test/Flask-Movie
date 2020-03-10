@@ -1,8 +1,8 @@
-Flask-Moive
+Flask-Movie
 -------
 项目简介：
 -------
-Flask-Moive是基于python3.6+Flask1.1.1+requests+Beautifulsoup4开发的抓取电影天堂影片展示项目。
+Flask-Movie是基于python3.6+Flask1.1.1+requests+Beautifulsoup4开发的抓取电影天堂影片展示项目。
 
 使用方法：
 -------
