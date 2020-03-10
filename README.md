@@ -37,7 +37,7 @@ python manager.py runjob -m movie -a list
 7.运行启动flask服务
 -------
 ```
-python manage.py runserver 
+python manager.py runserver 
 ```
 8.访问127.0.0.1:5001进入影片主页
 -------
