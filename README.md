@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 SQLALCHEMY_DATABASE_URI = "mysql://root:111111@127.0.0.1/movie_cat"
 SQLALCHEMY_TRACK_MODIFICATIONS= True
-SECRET_KEY = "imooc123456"
+SECRET_KEY = "pyguo123456"
 ```
 5.cmd到根目录下，生成数据库表
 -------
