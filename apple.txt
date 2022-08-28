@@ -1,0 +1,80 @@
+苹果电脑使用方法
+	
+快捷键大全
+    * 右键—双指点击
+    * 双击—单指双击
+    * 锁屏—control+command+q
+    * 局部截图— shift+command+4
+    * 全部截图—shift+command+3
+    * 命令行—1、command+space全局搜索“终端”2、或者直接点击终端图标即可
+    * 全局搜索—command+space 可以搜素终端
+    * 再开一个终端窗口—command+n
+    * 复制—command+c
+    * 新建副本—command+d
+    * 文件剪切—1、先command+c  2、然后command+option+v粘贴到目标路径
+    * 文本剪切—COMMAND+X，COMMAND+V
+    * 粘贴—command+v
+    * 删除—command+x
+    * 全选—command+a
+    * 查找—command+f
+    * 切换输入法—control+space
+    * 会退到上一步—command+z
+    * 查看窗口—三指往前推或者后推
+    * 快速关闭应用窗口—command+q(相当于杀掉进程)
+    * 快速切换窗口—1、先command+tab，2、然后在按tab键选择具体需要的窗口
+    * 窗口放大、缩小—command+或者command-
+    * 关闭当前窗口—command+w
+    * 隐藏窗口—command+h
+    * 关闭其他窗口—command+option+w
+    * Chrome开新的窗口—command+t
+    * 全屏｜取消全屏—command+control+f
+    * Chrome浏览器调试—option+command+I或者shift+command+c
+    * 新建文件夹—shift+command+n
+    * 保存文件—command+s
+    * 显示文件简介信息—command+i
+    * 打印文档—command+p
+    * 打开个人目录—shift+command+h
+    * 我的电脑—shift+command+c
+    * pycharm 打开设置菜单—command+,	
+    * 删除软件—点击一个软件后长按即可
+    * 设置默认文件打开方式—右键“显示简介”中设置默认即可
+    * 查看系统是否是64位—uname -a
+工具安装
+    * 安装brew工具（相当于yum或者apt）
+		https://zhuanlan.zhihu.com/p/111014448
+    * 安装python3(系统自带python3.8)
+		默认的路径
+		'/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8', 
+		'/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/site-packages'
+    * 安装pycharm/vscode
+    * 安装postman
+    * 安装jdk/jmeter
+		查看java安装路径命令：
+			/usr/libexec/java_home -V
+		java_home:  
+			/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home
+		.bash_profile环境变量：
+			JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home
+
+			JMETER_HOME=/Users/haoshengnan/apache-jmeter-5.3
+
+			CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JMETER_HOME/lib/ext/ApacheJMeter_core.jar:$JMETER_HOME/lib/jorphan.jar
+
+			PATH=$JAVA_HOME/bin:$JMETER_HOME/bin:$PATH:/usr/local/mysql/bin
+
+			export JAVA_HOME
+			export PATH
+			export CLASSPATH
+		.zshrc 环境变量（防止环境变量失效）
+			source ~/.bash_profile
+
+
+
+
+
+
+
+
+
+
+	
